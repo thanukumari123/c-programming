@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    float salary, bonus;
+
+    printf("Enter salary: ");
+    scanf("%f", &salary);
+
+    if(salary > 20000)
+        bonus = salary * 0.10;
+    else
+        bonus = salary * 0.05;
+
+    printf("Bonus amount = %.2f", bonus);
+    return 0;
+}
